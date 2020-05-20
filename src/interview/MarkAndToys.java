@@ -1,3 +1,5 @@
+package interview;
+
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -38,7 +40,7 @@ public class MarkAndToys {
 
     int result = maximumToys(prices, k);
 
-//    bufferedWriter.write(String.valueOf(result));
+    //    bufferedWriter.write(String.valueOf(result));
 //    bufferedWriter.newLine();
 //
 //    bufferedWriter.close();

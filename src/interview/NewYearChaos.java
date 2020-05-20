@@ -1,20 +1,16 @@
-import java.io.*;
-import java.math.*;
-import java.security.*;
-import java.text.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.regex.*;
+package interview;
+
+import java.util.Scanner;
 
 public class NewYearChaos {
 
   // Complete the minimumBribes function below.
-//  static void minimumBribes(int[] q) {
-//    int bribeCount = 0;
-//    boolean tooChaotic = false;
-//    for (int i = 0; i < q.length - 1; i++) {
-//      int bribesPerNumber = 0;
-//      for (int j = i + 1; j < q.length; j++) {
+  //  static void minimumBribes(int[] q) {
+  //    int bribeCount = 0;
+  //    boolean tooChaotic = false;
+  //    for (int i = 0; i < q.length - 1; i++) {
+  //      int bribesPerNumber = 0;
+  //      for (int j = i + 1; j < q.length; j++) {
 //        if (q[i] > q[j]) bribesPerNumber++;
 //        if (bribesPerNumber > 2) tooChaotic = true;
 //      }

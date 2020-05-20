@@ -1,3 +1,5 @@
+package interview;
+
 import static java.util.stream.Collectors.toList;
 
 import java.io.BufferedReader;
@@ -59,12 +61,11 @@ public class CountTriplets {
 
     long r = Long.parseLong(nr[1]);
 
-    List<Long> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" ")).map(Long::parseLong)
-      .collect(toList());
+    List<Long> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" ")).map(Long::parseLong).collect(toList());
 
     long ans = countTriplets(arr, r);
 
-//    bufferedWriter.write(String.valueOf(ans));
+    //    bufferedWriter.write(String.valueOf(ans));
 //    bufferedWriter.newLine();
 
     bufferedReader.close();

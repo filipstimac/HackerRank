@@ -1,3 +1,5 @@
+package interview;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -20,7 +22,6 @@ class Checker implements java.util.Comparator<Player> {
     else return a.name.compareTo(b.name);
   }
 }
-
 
 public class Comparator {
 
